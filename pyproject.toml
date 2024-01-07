@@ -7,6 +7,12 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.11"
+jupyter = "^1.0.0"
+wget = "^3.2"
+requests = "^2.31.0"
+pyarrow = "^14.0.2"
+xgboost = "^2.0.3"
+lightgbm = "^4.2.0"
 
 
 [build-system]
