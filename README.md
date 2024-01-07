@@ -86,20 +86,30 @@ I will use the [NYC Taxi & Limousine Commission (TLC) Trip Records](https://www.
 ### 1.5 Solution approach
 * `Set up the working environment`: I use poetry, conda, VSCode, Git/GitHub as development tools.
 * `Data preparation`:
-  * I will load raw data from the website, analyze, then transform it for model building using various models.
-* `Model training`: I will build baseline models, evaluate their perfomance then iterate to obtain the best performing model.
-* `Model operationalization (MLops)`: I hope to build pipelines to deploy the working model.
-* `Deploy models` : I hope to build a UI for aundiences to interact with the project.
+   * Find this in notebooks 01 - 05.
+   * First I fetch raw data from the website and validate.
+   * I then analyze the validated data, transform it into time series data and finally tabular data for model building.
+* `Model training`:
+   * Find this in notebooks 06 - 10.
+   * I split the data into train and test sets.
+   * I start with building baseline models followed by more robust models.
+   * I evaluated model perfomance using Mean Absolute Error(MAE), and iterated to obtain the best performing model.
+* `Model operationalization (MLops)`:
+   *  I'm continously working to deploy the model as a batch scoring service.
+   *  Find this in notebooks 11+, this is an on going proccess.
+   *  Here I use [Hopsworks](https://docs.hopsworks.ai/3.5/) as a feature store.
+   *  I use github actions to automate model runs.
+   * `For model deploment I use [Streamlit](https://streamlit.io/) to build a UI. PS- This is an ongoing process.
   
 ## 4. Conclusion
 
-In this project use time series data to build a model that predicts taxi demand per hour per location.
+In this project I use time series data to build a model that predicts taxi demand per hour per location.
 
-The dataset used was quite large and relatively clean. I spend some time on feature transformations in preparing the data for modeling.
+The dataset used was quite large and relatively clean. I spend a good time on feature transformations in preparing the data for modeling.
 
-I built 3 baseline models 2 of which used no machine learning algorithms but logic based on data exploration. The based performing baseline model was xgboost.
+I built 7 models in total. The based performing model was LightGBM with hyper parameter tuning.
 
-I used mean absolute error to evaluate model performance, I will explore other evaluation metrices in the future.
+I used mean absolute error to evaluate model performance.
 
 ## 5. Next steps
 
