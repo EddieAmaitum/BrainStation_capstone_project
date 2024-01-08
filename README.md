@@ -73,17 +73,17 @@ I will use the [NYC Taxi & Limousine Commission (TLC) Trip Records](https://www.
 ## 2. Solution approach
 * `Set up the working environment`: I use poetry, conda, VSCode, Git/GitHub as development tools.
 * `Data preparation`:
-   * Find this in notebooks 01 - 05.
+   * Find this in notebooks `01 - 05`.
    * First I fetch raw data from the website and validate.
    * I then analyze the validated data, transform it into time series data and finally tabular data for model building.
 * `Model training`:
-   * Find this in notebooks 06 - 10.
+   * Find this in notebooks `06 - 10`.
    * I split the data into train and test sets.
    * I start with building baseline models followed by more robust models.
    * I evaluated model perfomance using Mean Absolute Error(MAE), and iterated to obtain the best performing model.
 * `Model operationalization (MLops)`:
    *  I'm continously working to deploy the model as a batch scoring service.
-   *  Find this in notebooks 11+, this is an on going proccess.
+   *  Find this in notebooks `11+`, this is an on going proccess.
    *  Here I use [Hopsworks](https://docs.hopsworks.ai/3.5/) as a feature store.
    *  I use github actions to automate model runs.
    * `For model deploment I use [Streamlit](https://streamlit.io/) to build a UI. PS- This is an ongoing process.
