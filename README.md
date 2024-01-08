@@ -114,7 +114,7 @@ I hope to further improve the model performance by adding more features, build p
 ## 5. Appendix
 
 * Sample streamlit UI dashboard
-     
+     <img src="https://github.com/EddieAmaitum/main_capstone_project/blob/main/Streamlit%20App.png" alt=" photo" width="40%">
   
 
 
