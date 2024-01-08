@@ -16,6 +16,8 @@
 
 ## [4. Next Steps](#4.-Next-Steps)
 
+## [5. Appendix](#5.-Appendix)
+
 ## 1. Project overview
 
 ### 1.1 Introduction
@@ -113,9 +115,7 @@ I hope to further improve the model performance by adding more features, build p
 
 ## 5. Appendix
 
-* Sample streamlit UI dashboard
+* Sample streamlit UI dashboard: You can see highlighted high demand areas.
   
 <img src="https://github.com/EddieAmaitum/main_capstone_project/blob/main/Streamlit%20App.png" alt=" photo" width="50%">
   
-
-
