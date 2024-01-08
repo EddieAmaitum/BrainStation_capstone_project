@@ -117,9 +117,9 @@ I hope to further improve the model performance by adding more features, build p
 
 * Sample streamlit UI dashboard: You can see highlighted high demand areas.
   
-<img src="https://github.com/EddieAmaitum/brainstation_capstone_project/blob/main/Images/Streamlit%20App.png" alt=" photo" width="50%">
+<img src="https://github.com/EddieAmaitum/brainstation_capstone_project/blob/main/Images/Streamlit%20App.png" alt=" photo" width="60%">
   
 * Sample time series data.
 
-<img src="https://github.com/EddieAmaitum/brainstation_capstone_project/blob/main/Images/sample%20time%20series%20data.png" alt=" photo" width="50%">
+<img src="https://github.com/EddieAmaitum/brainstation_capstone_project/blob/main/Images/sample%20time%20series%20data.png" alt=" photo" width="60%">
   
