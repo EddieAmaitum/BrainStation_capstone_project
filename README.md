@@ -115,9 +115,9 @@ I hope to further improve the model performance by adding more features, build p
 
 ## 5. Appendix
 
-* Sample streamlit UI dashboard: You can see highlighted high demand areas.
+* Sample streamlit UI dashboard: You can see highlighted hot zones with high demand.
   
-<img src="https://github.com/EddieAmaitum/brainstation_capstone_project/blob/main/Images/Streamlit%20App.png" alt=" photo" width="60%">
+<img src="https://github.com/EddieAmaitum/brainstation_capstone_project/blob/main/Images/Streamlit%20App.png" alt=" photo" width="65%">
   
 * Sample time series data.
 
