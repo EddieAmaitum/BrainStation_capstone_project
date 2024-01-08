@@ -94,9 +94,9 @@ In this project I use time series data to build a model that predicts taxi deman
 
 The dataset used was quite large and relatively clean. I spend a good time on feature transformations in preparing the data for modeling.
 
-I built 7 models in total. The based performing model was LightGBM with hyper parameter tuning.
+I built 7 models in total. The best performing model was LightGBM with hyper parameter tuning.
 
-I used mean absolute error to evaluate model performance. See model performance below:
+I used mean absolute error to evaluate model performance (the magnitude of difference between the prediction of an observation and the true value of that observation). See model performance below:
 
 | Model                           | Mean Absolute Error (MAE) | Notes                                   |
 |---------------------------------|---------------------------|-----------------------------------------|
