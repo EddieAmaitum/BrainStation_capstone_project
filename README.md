@@ -123,7 +123,7 @@ I hope to further improve the model performance by adding more features, build p
 
 <img src="https://github.com/EddieAmaitum/brainstation_capstone_project/blob/main/Images/sample%20time%20series%20data.png" alt=" photo" width="60%">
 
-* Sample features ans targets.
+* Sample features and targets.
 
-<img src="https://github.com/EddieAmaitum/brainstation_capstone_project/blob/main/Images/sample%20features%20and%20targets.png" alt=" photo" width="60%">
+<img src="https://github.com/EddieAmaitum/brainstation_capstone_project/blob/main/Images/sample%20features%20and%20targets.png" alt=" photo" width="50%">
   
