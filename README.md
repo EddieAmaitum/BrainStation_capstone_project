@@ -125,5 +125,5 @@ I hope to further improve the model performance by adding more features, build p
 
 * Sample features and targets.
 
-<img src="https://github.com/EddieAmaitum/brainstation_capstone_project/blob/main/Images/sample%20features%20and%20targets.png" alt=" photo" width="50%">
+<img src="https://github.com/EddieAmaitum/brainstation_capstone_project/blob/main/Images/sample%20features%20and%20targets.png" alt=" photo" width="45%">
   
