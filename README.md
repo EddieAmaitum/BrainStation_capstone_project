@@ -122,4 +122,8 @@ I hope to further improve the model performance by adding more features, build p
 * Sample time series data.
 
 <img src="https://github.com/EddieAmaitum/brainstation_capstone_project/blob/main/Images/sample%20time%20series%20data.png" alt=" photo" width="60%">
+
+* Sample features ans targets.
+
+<img src="https://github.com/EddieAmaitum/brainstation_capstone_project/blob/main/Images/sample%20features%20and%20targets.png" alt=" photo" width="60%">
   
