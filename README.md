@@ -1,6 +1,6 @@
 # Taxi Demand Prediction
 
-<img src="https://github.com/EddieAmaitum/Capstone_project/blob/main/Taxi%20demand%20image.png" alt=" photo" width="75%">
+<img src="https://github.com/EddieAmaitum/Capstone_project/blob/main/Taxi%20demand%20image.png" alt=" photo" width="80%">
 
 ## Table of Contents
 
