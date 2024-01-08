@@ -9,27 +9,12 @@
 ### [1.2 Solution](#1.2-Solution)
 ### [1.3 Project Impact](#1.3-Project-Impact)
 ### [1.4 Data Dictionary](#1.4-Data-Dictionary)
-### [1.5 Solution Approach](#1.5-Solution-Approach)
 
-## [2. Data Preparation and Exploration](#2.-Data-Preparation-and-Exploration)
-### [2.1 Loading Libraries](#2.1-Loading-Libraries)
-### [2.2 Loading, Exploring, and Validating the Data](#2.2-Loading,-Exploring,-and-Validating-the-Data)
-### [2.3 Transforming Raw Data into Time Series Data for Our Analysis](#2.3-Transforming-Raw-Data-into-Time-Series-Data-for-Our-Analysis)
-### [2.4 Transforming the Time Series Data into Tabular Data for Model Training](#2.4-Transforming-the-Time-Series-Data-into-Tabular-Data-for-Model-Training)
+## [2 Solution Approach](#2.-Solution-Approach)
 
-## [3. Modeling](#3.-Modeling)
-### [3.1 Visualizing Data for Modeling](#3.1-Visualizing-Data-for-Modeling)
-### [3.2 Splitting the Data](#3.2-Splitting-the-Data)
-### [3.3 Baseline Model 1](#3.3-Baseline-Model-1)
-#### [3.3.1 Evaluating Baseline Model 1](#3.3.1-Evaluating-Baseline-Model-1)
-### [3.4 Baseline Model 2](#3.4-Baseline-Model-2)
-#### [3.4.1 Evaluating Baseline Model 2](#3.4.1-Evaluating-Baseline-Model-2)
-### [3.5 Baseline Model 3](#3.5-Baseline-Model-3)
-#### [3.5.1 Evaluating Baseline Model 3](#3.5.1-Evaluating-Baseline-Model-3)
+## [3. Conclusion](#3.-Conclusion)
 
-## [4. Conclusion](#4.-Conclusion)
-
-## [5. Next Steps](#5.-Next-Steps)
+## [4. Next Steps](#4.-Next-Steps)
 
 ## 1. Project overview
 
@@ -83,7 +68,7 @@ I will use the [NYC Taxi & Limousine Commission (TLC) Trip Records](https://www.
 * The dataset was relatively clean.
 * I spent a good amount of my time doing feature engineering.
 
-### 1.5 Solution approach
+## 2. Solution approach
 * `Set up the working environment`: I use poetry, conda, VSCode, Git/GitHub as development tools.
 * `Data preparation`:
    * Find this in notebooks 01 - 05.
@@ -101,7 +86,7 @@ I will use the [NYC Taxi & Limousine Commission (TLC) Trip Records](https://www.
    *  I use github actions to automate model runs.
    * `For model deploment I use [Streamlit](https://streamlit.io/) to build a UI. PS- This is an ongoing process.
   
-## 4. Conclusion
+## 3. Conclusion
 
 In this project I use time series data to build a model that predicts taxi demand per hour per location.
 
@@ -109,20 +94,27 @@ The dataset used was quite large and relatively clean. I spend a good time on fe
 
 I built 7 models in total. The based performing model was LightGBM with hyper parameter tuning.
 
-I used mean absolute error to evaluate model performance.
+I used mean absolute error to evaluate model performance. See model performance below:
 
-## 5. Next steps
+| Model                           | Mean Absolute Error (MAE) | Notes                                   |
+|---------------------------------|---------------------------|-----------------------------------------|
+| Ad Hoc model 1                  | 6.05                      | Baseline model                          |
+| Ad Hoc model 2                  | 3.68                      | Baseline model                          |
+| Ad Hoc model 3                  | 3.19                      | Baseline model                          |
+| XGBoost                         | 2.70                      | Models improved                         |
+| Lightgbm                        | 2.57                      | Models improved                         |
+| Lightgbm + feature engineering  | 2.59                      | Added average rides per month           |
+| Lightgbm + hyperparameter tuning| 2.54                      | Best model for production (num_leaves, min_child_samples, etc) |
 
-I hope to further improve the model performance, build pipelines to automate process and build a UI for interactivity. I will achieve these by:
 
-1. Increase the training data for example: by adding weather data, by doing further feature engineering.
+## 4. Next steps
 
-2. Explore other machine learning algorithms for example LightGBM.
+I hope to further improve the model performance by adding more features, build pipelines to automate processes and complete model operationalization.
 
-3. Explore more parameters through hyper parameter tuning.
+## 5. Appendix
 
-4. Explore evaluation metrices for the models.
+* Sample streamlit UI dashboard
+     
+  
 
-5. Build pipelines to automate processes and eliminate redundant steps.
 
-6. Build a UI so that audiences can interact with the project.
