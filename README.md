@@ -80,7 +80,7 @@ I will use the [NYC Taxi & Limousine Commission (TLC) Trip Records](https://www.
    * Find this in notebooks `06 - 10`.
    * I split the data into train and test sets.
    * I start with building baseline models followed by more robust models.
-   * I evaluated model perfomance using Mean Absolute Error(MAE), and iterated to obtain the best performing model.
+   * I evaluated model perfomance using Mean Absolute Error(MAE) - the magnitude of difference between the prediction of an observation and the true value of that observation, and iterated to obtain the best performing model.
 * `Model operationalization (MLops)`:
    *  I'm continously working to deploy the model as a batch scoring service.
    *  Find this in notebooks `11+`, this is an on going proccess.
