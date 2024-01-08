@@ -119,3 +119,7 @@ I hope to further improve the model performance by adding more features, build p
   
 <img src="https://github.com/EddieAmaitum/brainstation_capstone_project/blob/main/Images/Streamlit%20App.png" alt=" photo" width="50%">
   
+* Sample time series data.
+
+<img src="https://github.com/EddieAmaitum/brainstation_capstone_project/blob/main/Images/sample%20time%20series%20data.png" alt=" photo" width="50%">
+  
