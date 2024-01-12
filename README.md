@@ -4,19 +4,19 @@
 
 ## Table of Contents
 
-## [1. Project Overview](#1.-Project-Overview)
+### [1. Project Overview](#1.-Project-Overview)
 ### [1.1 Introduction](#1.1-Introduction)
 ### [1.2 Solution](#1.2-Solution)
 ### [1.3 Project Impact](#1.3-Project-Impact)
 ### [1.4 Data Dictionary](#1.4-Data-Dictionary)
 
-## [2 Solution Approach](#2.-Solution-Approach)
+### [2 Solution Approach](#2.-Solution-Approach)
 
-## [3. Conclusion](#3.-Conclusion)
+### [3. Conclusion](#3.-Conclusion)
 
-## [4. Next Steps](#4.-Next-Steps)
+### [4. Next Steps](#4.-Next-Steps)
 
-## [5. Appendix](#5.-Appendix)
+### [5. Appendix](#5.-Appendix)
 
 ## 1. Project overview
 
